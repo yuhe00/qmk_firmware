@@ -1,0 +1,23 @@
+#define TAPPING_TERM 200
+#define FORCE_NKRO
+#define LEADER_TIMEOUT 1000
+
+// Mouse and oneshot settings
+
+#undef MOUSEKEY_INTERVAL
+#undef MOUSEKEY_DELAY
+#undef MOUSEKEY_TIME_TO_MAX
+#undef MOUSEKEY_MAX_SPEED
+
+#define MOUSEKEY_INTERVAL    10
+#define MOUSEKEY_DELAY       0
+#define MOUSEKEY_TIME_TO_MAX 10
+#define MOUSEKEY_MAX_SPEED   3
+
+#define PREVENT_STUCK_MODIFIERS
+
+#undef ONESHOT_TIMEOUT
+
+#define ONESHOT_TIMEOUT 1000
+
+#include "../../config.h"
