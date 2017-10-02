@@ -56,6 +56,9 @@
 
 #define USB_MAX_POWER_CONSUMPTION 500
 
+/* NKRO */
+//#define FORCE_NKRO
+
 /*
  * Feature disable options
  *  These options are also useful to firmware size reduction.
